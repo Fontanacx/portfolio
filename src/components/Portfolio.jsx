@@ -37,8 +37,12 @@ const Portfolio = () => {
             <a href="mailto:fontanacdev@gmail.com" className="text-white hover:text-gray-300">
               <LucideIcons.Mail size={24} />
             </a>
+            <a href="https://wa.me/+5493815014201" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300">
+              <LucideIcons.MessageCircle size={24} />
+            </a>
           </div>
         </header>
+
 
         <section className="mb-16">
           <h2 className="text-3xl font-semibold mb-6">Sobre mí</h2>
