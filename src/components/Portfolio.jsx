@@ -37,7 +37,7 @@ const Portfolio = () => {
             <a href="mailto:fontanacdev@gmail.com" className="text-white hover:text-gray-300">
               <LucideIcons.Mail size={24} />
             </a>
-            <a href="https://wa.me/+5493815014201" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300">
+            <a href="https://api.whatsapp.com/send?phone=543814798213&text=Hola!%20%2C%20me%20gustaria%20asesorarme%20para%20dise%C3%B1ar%20mi%20pagina%20web%F0%9F%8C%90!%20" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300">
               <LucideIcons.MessageCircle size={24} />
             </a>
           </div>
