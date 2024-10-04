@@ -37,8 +37,12 @@ const Portfolio = () => {
             <a href="mailto:fontanacdev@gmail.com" className="text-white hover:text-gray-300">
               <LucideIcons.Mail size={24} />
             </a>
+            <a href="https://api.whatsapp.com/send?phone=543814798213&text=Hola!%20%2C%20me%20gustaria%20asesorarme%20para%20dise%C3%B1ar%20mi%20pagina%20web%F0%9F%8C%90!%20" target="_blank" rel="noopener noreferrer" className="text-white hover:text-gray-300">
+              <LucideIcons.MessageCircle size={24} />
+            </a>
           </div>
         </header>
+
 
         <section className="mb-16">
           <h2 className="text-3xl font-semibold mb-6">Sobre mí</h2>
@@ -81,6 +85,13 @@ const Portfolio = () => {
               title="Salón de Fiestas" 
               description="Página web para un salón de eventos, mostrando servicios y facilitando reservas."
               link="https://homcasa.netlify.app/"
+            />
+            <ProjectCard 
+              title="Lista de Tareas" 
+              description="Aplicacion web para organizar y completar tareas diarias con un diseño limpio y Dark Mode
+
+"
+              link="https://taskboarder.netlify.app/"
             />
           </div>
         </section>
